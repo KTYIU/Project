@@ -8,23 +8,23 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\k.toncheva23\\.nuget\\packages\\": {},
+    "C:\\Users\\t.marinova23\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "H:\\2022-23 Informatics\\Railway\\Railway\\Railway.csproj",
+      "projectUniqueName": "H:\\RailwayRepo\\Railway\\Railway.csproj",
       "projectName": "Railway",
-      "projectPath": "H:\\2022-23 Informatics\\Railway\\Railway\\Railway.csproj",
-      "packagesPath": "C:\\Users\\k.toncheva23\\.nuget\\packages\\",
-      "outputPath": "H:\\2022-23 Informatics\\Railway\\Railway\\obj\\",
+      "projectPath": "H:\\RailwayRepo\\Railway\\Railway.csproj",
+      "packagesPath": "C:\\Users\\t.marinova23\\.nuget\\packages\\",
+      "outputPath": "H:\\RailwayRepo\\Railway\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\k.toncheva23\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\t.marinova23\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],

@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-H:\2022-23 Informatics\Railway\Railway\obj\Debug\netcoreapp3.1\
+H:\RailwayRepo\Railway\obj\Debug\netcoreapp3.1\
 Railway
 none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
-H:\2022-23 Informatics\Railway\Railway\App.xaml
-11407045341
+H:\RailwayRepo\Railway\App.xaml
+2-1414841641
 
-52136093736
+6-470131025
 192-1533232326
-MainWindow.xaml;
+Login.xaml;SignUp.xaml;
 
 False
 

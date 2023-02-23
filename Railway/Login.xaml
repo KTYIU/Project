@@ -1,0 +1,48 @@
+﻿<Window x:Class="Railway.PassengerDataTable"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Railway"
+        mc:Ignorable="d"
+        Title="PassengerDataTable" Height="450" Width="800">
+    <Grid Background="#AB84FF">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" Height="50" Width="688" Text="Welcome to Express Railways!"
+                   TextAlignment="Center" FontSize="26" FontFamily="ISOCPEUR"
+                   HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,35,0,0"/>
+        <TextBlock Grid.Row="1" Height="50" Width="688" Text="Log in"
+                   TextAlignment="Center" FontSize="26" FontFamily="ISOCPEUR"
+                   HorizontalAlignment="Left" VerticalAlignment="Top" Margin="55,4,0,0"/>
+        <TextBox x:Name="usrnmbox" HorizontalAlignment="Center" Height="18" Margin="0,80,0,0"
+                 Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="usrnmbox_TextChanged"/>
+        <PasswordBox x:Name="psswrdbox" HorizontalAlignment="Center" Margin="0,10,0,0"
+                     Grid.Row="2" VerticalAlignment="Top" Width="120" RenderTransformOrigin="2.282,-0.469"/>
+        <Button Content="Enter" HorizontalAlignment="Left" Margin="362,21,0,0" 
+               Grid.Row="3" VerticalAlignment="Top" Width="74" Click="Button_Click" FontFamily="ISOCPEUR"/>
+        <TextBlock HorizontalAlignment="Left" Margin="304,82,0,0" Grid.Row="1" Text="Email:" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="ISOCPEUR"/>
+        <TextBlock HorizontalAlignment="Left" Margin="279,10,0,0" Grid.Row="2" Text="Username:" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="ISOCPEUR"/>
+        <TextBlock HorizontalAlignment="Left" Margin="283,45,0,0" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Top" Text="Password:" FontFamily="ISOCPEUR"/>
+        <TextBlock HorizontalAlignment="Left" Margin="261,83,0,0" Grid.Row="2" Text="Account Type:" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="ISOCPEUR"/>
+        <TextBox HorizontalAlignment="Center" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Center" Width="120"/>
+        <ListBox Grid.Row="2" Margin="340,82,339,6" SelectionChanged="ListBox_SelectionChanged" RenderTransformOrigin="0.5,0.5">
+            <ListBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.196"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </ListBox.RenderTransform>
+            <ListBoxItem Content="Passenger" Height="21" FontFamily="ISOCPEUR"/>
+            <ListBoxItem Content="Conductor"/>
+        </ListBox>
+        <Button Content="Sign Up" HorizontalAlignment="Center" Margin="0,70,0,0" Grid.Row="3" VerticalAlignment="Top" Click="Button_Click_1" FontFamily="ISOCPEUR"/>
+    </Grid>
+</Window>
