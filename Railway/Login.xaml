@@ -24,8 +24,8 @@
                  Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="usrnmbox_TextChanged"/>
         <PasswordBox x:Name="psswrdbox" HorizontalAlignment="Center" Margin="0,10,0,0"
                      Grid.Row="2" VerticalAlignment="Top" Width="120" RenderTransformOrigin="2.282,-0.469"/>
-        <Button Content="Enter" HorizontalAlignment="Left" Margin="362,21,0,0" 
-               Grid.Row="3" VerticalAlignment="Top" Width="74" Click="Button_Click" FontFamily="ISOCPEUR"/>
+        <Button x:Name="SubmitSignup"  Content="Enter" HorizontalAlignment="Left" Margin="362,21,0,0" 
+               Grid.Row="3" VerticalAlignment="Top" Width="74" Click="Submit_Click" FontFamily="ISOCPEUR"/>
         <TextBlock HorizontalAlignment="Left" Margin="304,82,0,0" Grid.Row="1" Text="Email:" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="ISOCPEUR"/>
         <TextBlock HorizontalAlignment="Left" Margin="279,10,0,0" Grid.Row="2" Text="Username:" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="ISOCPEUR"/>
         <TextBlock HorizontalAlignment="Left" Margin="283,45,0,0" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Top" Text="Password:" FontFamily="ISOCPEUR"/>
@@ -43,6 +43,6 @@
             <ListBoxItem Content="Passenger" Height="21" FontFamily="ISOCPEUR"/>
             <ListBoxItem Content="Conductor"/>
         </ListBox>
-        <Button Content="Sign Up" HorizontalAlignment="Center" Margin="0,70,0,0" Grid.Row="3" VerticalAlignment="Top" Click="Button_Click_1" FontFamily="ISOCPEUR"/>
+        <Button x:Name="ChangeToLogin"  Content="Sign Up" HorizontalAlignment="Center" Margin="0,70,0,0" Grid.Row="3" VerticalAlignment="Top" FontFamily="ISOCPEUR" Click="ChangeToSignup"/>
     </Grid>
 </Window>

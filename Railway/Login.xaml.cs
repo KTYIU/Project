@@ -21,5 +21,32 @@ namespace Railway
         {
             InitializeComponent();
         }
+        private void Submit_Click(object sender, RoutedEventArgs e)
+        {
+            if (psswrdbox.Password.Length < 10)
+            {
+                // giving an icon to the message box as well
+                MessageBox.Show("Your password should be at least 10 symbols long.", "Save error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+            else if (usrnmbox.Text == "" || usrnmbox.IsHitTestVisible.Equals("Username"))
+            {
+                MessageBox.Show("The username field cannot be left empty.", "Save error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+            else
+            {
+                MessageBox.Show($"Your username is: {usrnmbox.Text} and your password is: {psswrdbox.Password}", "Save info", MessageBoxButton.OK, MessageBoxImage.Information);
+            }
+
+        }
+
+        private void ChangeToSignup(object sender, RoutedEventArgs e)
+        {
+            SignUp su = new SignUp();
+            su.Show();
+            this.Close();
+
+        }
     }
+    
+    
 }
