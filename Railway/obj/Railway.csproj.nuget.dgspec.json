@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "H:\\RailwayRepo\\Railway\\Railway.csproj": {}
+    "H:\\2022-23 Informatics\\ExpressRailways\\Railway\\Railway.csproj": {}
   },
   "projects": {
-    "H:\\RailwayRepo\\Railway\\Railway.csproj": {
+    "H:\\2022-23 Informatics\\ExpressRailways\\Railway\\Railway.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\RailwayRepo\\Railway\\Railway.csproj",
+        "projectUniqueName": "H:\\2022-23 Informatics\\ExpressRailways\\Railway\\Railway.csproj",
         "projectName": "Railway",
-        "projectPath": "H:\\RailwayRepo\\Railway\\Railway.csproj",
-        "packagesPath": "C:\\Users\\t.marinova23\\.nuget\\packages\\",
-        "outputPath": "H:\\RailwayRepo\\Railway\\obj\\",
+        "projectPath": "H:\\2022-23 Informatics\\ExpressRailways\\Railway\\Railway.csproj",
+        "packagesPath": "C:\\Users\\k.toncheva23\\.nuget\\packages\\",
+        "outputPath": "H:\\2022-23 Informatics\\ExpressRailways\\Railway\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\t.marinova23\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\k.toncheva23\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -43,6 +43,12 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

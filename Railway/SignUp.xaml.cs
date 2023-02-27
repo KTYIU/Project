@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -18,11 +19,47 @@ namespace Railway
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class SignUp : Window
     {
-        public MainWindow()
+        public SignUp()
         {
             InitializeComponent();
+        }
+        private void Submit_Click(object sender, RoutedEventArgs e)
+        {
+            SqlConnection sqlCon = new SqlConnection(@"Data Source= LABSCIFIPC16\LOCALHOST; Initial Catalog = LogIn&SignUp; Integrated security=True");
+
+            try
+
+            {
+
+                sqlCon.Open();  // I am opening the connection to the db 
+
+
+                //Build our actual query 
+
+                string dbsCon = @"Data Source=LABSCIFIPC22\LOCALHOST; Initial Catalog=RailwaySystem_; Integrated Security=True";
+
+
+                //Establish a sql command
+
+                SqlCommand cmd = new SqlCommand(dbsCon, sqlCon);
+
+                cmd.ExecuteNonQuery();
+
+                MessageBox.Show("Successfully saved");
+            }
+
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+
+            finally
+            {
+                sqlCon.Close();
+            }
+
         }
     }
 }
