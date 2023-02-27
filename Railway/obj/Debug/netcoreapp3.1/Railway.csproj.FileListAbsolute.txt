@@ -1,5 +1,0 @@
-H:\RailwayRepo\Railway\obj\Debug\netcoreapp3.1\Railway.csproj.AssemblyReference.cache
-H:\RailwayRepo\Railway\obj\Debug\netcoreapp3.1\SignUp.g.cs
-H:\RailwayRepo\Railway\obj\Debug\netcoreapp3.1\App.g.cs
-H:\RailwayRepo\Railway\obj\Debug\netcoreapp3.1\Railway_MarkupCompile.cache
-H:\RailwayRepo\Railway\obj\Debug\netcoreapp3.1\Railway_MarkupCompile.lref
