@@ -13,7 +13,7 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-
+<!--  -->
         <TextBlock Grid.Row="0" Height="50" Width="688" Text="Welcome to Express Railways!"
                    TextAlignment="Center" FontSize="26" FontFamily="ISOCPEUR"
                    HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,35,0,0"/>
