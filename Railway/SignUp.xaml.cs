@@ -17,7 +17,7 @@ using System.Windows.Shapes;
 namespace Railway
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for SignUp.xaml
     /// </summary>
     public partial class SignUp : Window
     {
@@ -60,6 +60,13 @@ namespace Railway
                 sqlCon.Close();
             }
 
+        }
+
+        private void ToLogInPage (object sender, RoutedEventArgs e)
+        {
+            LogIn lg = new LogIn();
+            lg.Show();
+            Close();
         }
     }
 }

@@ -15,9 +15,9 @@ namespace Railway
     /// <summary>
     /// Interaction logic for PassengerDataTable.xaml
     /// </summary>
-    public partial class PassengerDataTable : Window
+    public partial class LogIn : Window
     {
-        public PassengerDataTable()
+        public LogIn()
         {
             InitializeComponent();
         }
@@ -47,6 +47,4 @@ namespace Railway
 
         }
     }
-    
-    
 }
