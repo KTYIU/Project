@@ -37,9 +37,9 @@
 
             <Label Content="Repeat Password" Foreground="White"/>
             <PasswordBox x:Name="RePasswordBox" Background="#545d6a" Foreground="white" FontSize="18"/>
-            <Button x:Name="Submit" Content="Submit" Margin="20,35"  Background="#545d6a" Foreground="white" FontSize="18" Click="Submit_Click" Height="29" Width="140"  />
+            <Button x:Name="Enter" Content="Enter" Margin="20,35"  Background="#545d6a" Foreground="white" FontSize="18" Click="Submit_Click" Height="29" Width="140"  />
 
-            <Button x:Name="logInRoute" HorizontalAlignment="Right" Content="Log In" Background="#545d6a" Foreground="white" FontSize="18" Click="Submit_Click" Height="29" Width="100" />
+            <Button x:Name="logInRoute" HorizontalAlignment="Right" Content="Log In" Background="#545d6a" Foreground="white" FontSize="18" Click="ToLogInPage" Height="29" Width="100" />
 
         </StackPanel>
     </Border>

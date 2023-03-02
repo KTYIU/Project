@@ -3,3 +3,32 @@ H:\RailwayRepo\Railway\obj\Debug\netcoreapp3.1\SignUp.g.cs
 H:\RailwayRepo\Railway\obj\Debug\netcoreapp3.1\App.g.cs
 H:\RailwayRepo\Railway\obj\Debug\netcoreapp3.1\Railway_MarkupCompile.cache
 H:\RailwayRepo\Railway\obj\Debug\netcoreapp3.1\Railway_MarkupCompile.lref
+H:\2022-23 Informatics\ExpressRailways\Railway\obj\Debug\netcoreapp3.1\Railway.csproj.AssemblyReference.cache
+H:\2022-23 Informatics\ExpressRailways\Railway\obj\Debug\netcoreapp3.1\Login.g.cs
+H:\2022-23 Informatics\ExpressRailways\Railway\obj\Debug\netcoreapp3.1\SignUp.g.cs
+H:\2022-23 Informatics\ExpressRailways\Railway\obj\Debug\netcoreapp3.1\App.g.cs
+H:\2022-23 Informatics\ExpressRailways\Railway\obj\Debug\netcoreapp3.1\Railway_MarkupCompile.cache
+H:\2022-23 Informatics\ExpressRailways\Railway\obj\Debug\netcoreapp3.1\Railway_MarkupCompile.lref
+H:\2022-23 Informatics\ExpressRailways\Railway\bin\Debug\netcoreapp3.1\Railway.exe
+H:\2022-23 Informatics\ExpressRailways\Railway\bin\Debug\netcoreapp3.1\Railway.deps.json
+H:\2022-23 Informatics\ExpressRailways\Railway\bin\Debug\netcoreapp3.1\Railway.runtimeconfig.json
+H:\2022-23 Informatics\ExpressRailways\Railway\bin\Debug\netcoreapp3.1\Railway.runtimeconfig.dev.json
+H:\2022-23 Informatics\ExpressRailways\Railway\bin\Debug\netcoreapp3.1\Railway.dll
+H:\2022-23 Informatics\ExpressRailways\Railway\bin\Debug\netcoreapp3.1\Railway.pdb
+H:\2022-23 Informatics\ExpressRailways\Railway\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+H:\2022-23 Informatics\ExpressRailways\Railway\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+H:\2022-23 Informatics\ExpressRailways\Railway\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+H:\2022-23 Informatics\ExpressRailways\Railway\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+H:\2022-23 Informatics\ExpressRailways\Railway\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+H:\2022-23 Informatics\ExpressRailways\Railway\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+H:\2022-23 Informatics\ExpressRailways\Railway\obj\Debug\netcoreapp3.1\Login.baml
+H:\2022-23 Informatics\ExpressRailways\Railway\obj\Debug\netcoreapp3.1\SignUp.baml
+H:\2022-23 Informatics\ExpressRailways\Railway\obj\Debug\netcoreapp3.1\Railway.g.resources
+H:\2022-23 Informatics\ExpressRailways\Railway\obj\Debug\netcoreapp3.1\Railway.GeneratedMSBuildEditorConfig.editorconfig
+H:\2022-23 Informatics\ExpressRailways\Railway\obj\Debug\netcoreapp3.1\Railway.AssemblyInfoInputs.cache
+H:\2022-23 Informatics\ExpressRailways\Railway\obj\Debug\netcoreapp3.1\Railway.AssemblyInfo.cs
+H:\2022-23 Informatics\ExpressRailways\Railway\obj\Debug\netcoreapp3.1\Railway.csproj.CoreCompileInputs.cache
+H:\2022-23 Informatics\ExpressRailways\Railway\obj\Debug\netcoreapp3.1\Railway.csproj.CopyComplete
+H:\2022-23 Informatics\ExpressRailways\Railway\obj\Debug\netcoreapp3.1\Railway.dll
+H:\2022-23 Informatics\ExpressRailways\Railway\obj\Debug\netcoreapp3.1\Railway.pdb
+H:\2022-23 Informatics\ExpressRailways\Railway\obj\Debug\netcoreapp3.1\Railway.genruntimeconfig.cache
