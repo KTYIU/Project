@@ -44,8 +44,7 @@ namespace Railway
             SignUp su = new SignUp();
             su.Show();
             this.Close();
+
         }
     }
-
-
 }
