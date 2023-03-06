@@ -6,41 +6,41 @@
         xmlns:local="clr-namespace:Railway"
         mc:Ignorable="d"
         Title="PassengerDataTable" Height="600" Width="450">
-   
+
+
     <Grid>
-            <Grid.Background>
-                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                    <GradientStop Color="#FFAB7CE6"/>
-                    <GradientStop Color="#FF8ADCAF" Offset="1"/>
-                </LinearGradientBrush>
-            </Grid.Background>
-            <Grid.RowDefinitions>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FFAB7CE6"/>
+                <GradientStop Color="#FF8ADCAF" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <!--  -->
+
         <TextBlock Grid.Row="0" Height="50" Width="688" Text="Welcome to Express Railways!"
                    TextAlignment="Center" FontSize="26" FontFamily="ISOCPEUR"
                    HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,35,0,0"/>
-        <TextBlock Grid.Row="1" Height="50" Width="344" Text="Log in"
+        <TextBlock Height="50" Width="344" Text="Log in"
                    TextAlignment="Center" FontSize="26" FontFamily="ISOCPEUR"
-                   HorizontalAlignment="Left" VerticalAlignment="Top" Margin="55,4,0,0"/>
-        <TextBox x:Name="usrnmbox" HorizontalAlignment="Center" Height="18" Margin="0,80,0,0"
-                 Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" />
-        <PasswordBox x:Name="psswrdbox" HorizontalAlignment="Center" Margin="0,137,0,0"
+                   HorizontalAlignment="Left" VerticalAlignment="Top" Margin="51,128,0,0" Grid.RowSpan="2"/>
+        <PasswordBox x:Name="psswrdbox" HorizontalAlignment="Center" Margin="0,146,0,0"
                      Grid.Row="1" VerticalAlignment="Top" Width="120" RenderTransformOrigin="2.282,-0.469" Grid.RowSpan="2"/>
 
-        <Button Content="Enter" HorizontalAlignment="Center" Margin="0,23,0,0" 
+        <Button Content="Enter" HorizontalAlignment="Center" Margin="0,24,0,0" 
                Grid.Row="3" VerticalAlignment="Top" Width="74" Click="Submit_Click" FontFamily="ISOCPEUR"/>
-        <TextBlock HorizontalAlignment="Left" Margin="124,80,0,0" Grid.Row="1" Text="Email:" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="ISOCPEUR" FontSize="16"/>
-        <TextBlock HorizontalAlignment="Left" Margin="95,137,0,0" Grid.Row="1" Text="Username:" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="ISOCPEUR" Grid.RowSpan="2" FontSize="16"/>
-        <TextBlock HorizontalAlignment="Left" Margin="95,50,0,0" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Top" Text="Password:" FontFamily="ISOCPEUR" FontSize="16"/>
-        <TextBlock HorizontalAlignment="Left" Margin="82,116,0,0" Grid.Row="2" Text="Account Type:" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="ISOCPEUR" FontSize="16"/>
-        <TextBox HorizontalAlignment="Left" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="167,52,0,0"/>
+        <TextBlock HorizontalAlignment="Left" Margin="96,87,0,0" Grid.Row="1" Text="Username:" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="ISOCPEUR" FontSize="16"/>
+        <TextBlock HorizontalAlignment="Left" Margin="96,146,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Text="Password:" FontFamily="ISOCPEUR" FontSize="16" Grid.RowSpan="2"/>
+        <TextBlock HorizontalAlignment="Left" Margin="83,60,0,0" Grid.Row="2" Text="Account Type:" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="ISOCPEUR" FontSize="16"/>
+        <TextBox HorizontalAlignment="Center" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="0,89,0,0"/>
 
-        <ListBox Grid.Row="2" Margin="178,121,165,4"  RenderTransformOrigin="0.5,0.5">
+        <ListBox Grid.Row="2" Margin="180,62,155,40"  RenderTransformOrigin="0.5,0.5">
+
             <ListBox.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
