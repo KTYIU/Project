@@ -16,6 +16,7 @@
         <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" Text="Express Railways" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Bahnschrift SemiLight SemiCondensed" FontSize="22" FontStyle="Italic"/>
         <DataGrid Margin="57,127,302,127"/>
         <Button x:Name="logOutButton"  Content="Log Out" HorizontalAlignment="Left" Margin="676,14,0,0" VerticalAlignment="Top" Height="22" Width="105" Click="Button_Click"/>
+
         <ComboBox HorizontalAlignment="Left" Width="132" Margin="522,15,0,448">
             <ComboBoxItem IsSelected="True">Manage Account</ComboBoxItem>
             <ComboBoxItem >Update Account Details</ComboBoxItem>
@@ -27,11 +28,14 @@
               DisplayMemberPath="ProjectName" 
               SelectedValuePath="RFIDirectory" >
             <ComboBoxItem IsSelected="True"> Choose...</ComboBoxItem>
+
         </ComboBox>
 
         <TextBlock HorizontalAlignment="Left" Margin="569,242,0,0" Text="Destination Station:" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Bahnschrift SemiLight SemiCondensed" FontSize="18" FontStyle="Italic"/>
         <ComboBox HorizontalAlignment="Left" Height="20" Width="132" Margin="569,278,0,186">
+
             <ComboBoxItem IsSelected="True"> Choose...</ComboBoxItem>
+
 
         </ComboBox>
         <TextBlock HorizontalAlignment="Left" Margin="61,95,0,0" Text="Available Dates:" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Bahnschrift Light SemiCondensed" FontSize="20"/>
