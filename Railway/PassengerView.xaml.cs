@@ -17,6 +17,8 @@ namespace Railway
     /// </summary>
     public partial class PassengerView : Window
     {
+        string dbsCon = @"Data Source=LABSCIFIPC22\LOCALHOST; Initial Catalog=RailwaySystem_; Integrated Security=True";
+
         public PassengerView()
         {
             InitializeComponent();

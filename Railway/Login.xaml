@@ -36,11 +36,10 @@
                Grid.Row="3" VerticalAlignment="Top" Width="74" Click="Submit_Click" FontFamily="ISOCPEUR"/>
         <TextBlock HorizontalAlignment="Left" Margin="96,87,0,0" Grid.Row="1" Text="Username:" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="ISOCPEUR" FontSize="16"/>
         <TextBlock HorizontalAlignment="Left" Margin="96,146,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Text="Password:" FontFamily="ISOCPEUR" FontSize="16" Grid.RowSpan="2"/>
-        <TextBlock HorizontalAlignment="Left" Margin="83,60,0,0" Grid.Row="2" Text="Account Type:" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="ISOCPEUR" FontSize="16"/>
-        <TextBox HorizontalAlignment="Center" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="0,89,0,0"/>
+        <TextBlock HorizontalAlignment="Left" Margin="83,73,0,0" Grid.Row="2" Text="Account Type:" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="ISOCPEUR" FontSize="16"/>
+        <TextBox x:Name="usrnmbox" HorizontalAlignment="Center" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="0,89,0,0"/>
 
-        <ListBox Grid.Row="2" Margin="180,62,155,40"  RenderTransformOrigin="0.5,0.5">
-
+        <ListBox x:Name="account" Grid.Row="2" Margin="180,62,155,40"  RenderTransformOrigin="0.5,0.5">
             <ListBox.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
