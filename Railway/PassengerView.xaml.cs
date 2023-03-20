@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
+using System.Data.SqlClient;
 using System.Text;
 using System.Windows;
 using System.Windows.Controls;
@@ -26,10 +28,41 @@ namespace Railway
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            this.Close();
+        }
+
+        private void Load_DataGrid(object sender, RoutedEventArgs e)
+        {
+            SqlConnection sqlCon = new SqlConnection(dbsCon);
+
+
+            try
+            {
+
+                sqlCon.Open();
+                String query = "  ";
+                SqlCommand sqlCmd = new SqlCommand(,);
+                sqlCmd.ExecuteNonQuery();
+                SqlDataAdapter word = new SqlDataAdapter();
+                DataTable dt = new DataTable(" ");
+                word.Fill(dt);
+                DG.ItemsSource = dt.DefaultView;
+                word.Update(dt);
+                MessageBox.Show("Success");
+                sqlCon.Close();
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+
+            }
 
         }
 
-        private void accountActionsBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        private void DataGrid_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
 
         }
